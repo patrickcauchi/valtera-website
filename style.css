@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+  text-align: center; /* centers h1 and nav inside */
+}
+
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  gap: 20px;  /* space between links */
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0ff;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.hero {
+  padding: 60px 0;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #aaa;
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.about {
+  padding: 60px 0;
+  border-top: 1px solid #222;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.05rem;
+  color: #aaa;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vision {
+  padding: 60px 0;
+  border-top: 1px solid #222;
+  text-align: center;
+}
+
+.vision h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.vision p {
+  font-size: 1.05rem;
+  color: #aaa;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products {
+  padding: 60px 0;
+  border-top: 1px solid #222;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.products p {
+  font-size: 1.05rem;
+  color: #aaa;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tech-stack {
+  padding: 60px 0;
+  border-top: 1px solid #222;
+  text-align: center;
+}
+
+.tech-stack h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.tech-stack p {
+  font-size: 1.05rem;
+  color: #aaa;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.founder {
+  padding: 60px 0;
+  border-top: 1px solid #222;
+  text-align: center;
+}
+
+.founder h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.founder p {
+  font-size: 1.05rem;
+  color: #aaa;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+  
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* spacing between columns */
+  margin-top: 30px;
+}
+
+.product-item {
+  flex: 1; /* allows equal width columns */
+  background-color: #111;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tech {
+  padding: 60px 0;
+  text-align: center;
+  border-top: 1px solid #222;
+}
+
+.tech .intro {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #aaa;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.tech-badges span {
+  background-color: #222;
+  color: #0ff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  border: 1px solid #333;
+  transition: background-color 0.2s ease;
+}
+
+.tech-badges span:hover {
+  background-color: #0ff;
+  color: #000;
+  cursor: default;
+}
+
+.roadmap {
+  padding: 60px 0;
+  text-align: center;
+  border-top: 1px solid #222;
+}
+
+.roadmap h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.roadmap-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  color: #ccc;
+}
+
+.roadmap-list li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-left: 2px solid #0ff;
+}
+
+.founder {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.founder h2 {
+  margin-bottom: 30px;
+}
+
+.founder-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* makes it stack on smaller screens */
+}
+
+.founder-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0ff;
+  box-shadow: 0 0 10px rgba(0,255,255,0.2);
+}
+
+.founder-content .bio {
+  max-width: 600px;
+  text-align: left;
+  color: #ccc;
+  font-size: 1.05rem;
+}
+
+.linkedin-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+  color: #fff;
+}
+
+
