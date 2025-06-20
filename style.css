@@ -5,12 +5,13 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   background-color: #0d0d0d;
   color: #ffffff;
   padding: 20px;
   line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 header {
   background-color: #111;
@@ -21,9 +22,17 @@ header {
 
 
 header h1 {
-  font-size: 2rem;
   margin-bottom: 10px;
 }
+
+.brand {
+  gap: 16px;
+}
+
+.brand img {
+  width: 60px;
+}
+
 
 nav ul {
   list-style: none;
@@ -296,6 +305,25 @@ html {
 
 .linkedin-link:hover {
   color: #fff;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.brand img {
+  width: 120px;
+  height: auto;
+}
+
+.brand h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 
