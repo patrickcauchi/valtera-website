@@ -30,8 +30,12 @@ header h1 {
 }
 
 .brand img {
-  width: 60px;
+  width: 120px;     
+  height: auto;
+  max-height: 120px;  /* ensures it won't blow up */
+  object-fit: contain;
 }
+
 
 
 nav ul {
@@ -325,5 +329,7 @@ html {
   font-weight: 700;
   line-height: 1.2;
 }
+
+
 
 
