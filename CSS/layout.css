@@ -1,12 +1,25 @@
-/* === Scroll Margin for Anchor Links === */
+/* Default (desktop) scroll margin */
 #about,
 #vision,
 #products,
 #tech,
 #roadmap,
 #founder {
-  scroll-margin-top: 220px;
+  scroll-margin-top: 200px; /* Desktop value */
 }
+
+/* Mobile override */
+@media (max-width: 768px) {
+  #about,
+  #vision,
+  #products,
+  #tech,
+  #roadmap,
+  #founder {
+    scroll-margin-top: 240px; /* Mobile value */
+  }
+}
+
 
 /* === Shared Section Layout === */
 .section {

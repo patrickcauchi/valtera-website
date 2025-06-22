@@ -70,21 +70,46 @@ nav a:hover {
   }
 
   .brand {
-    flex-direction: column;
-    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .brand img {
+    width: 70px;
+    height: auto;
   }
 
   .brand h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .tagline {
     font-size: 0.95rem;
+    text-align: center;
+    margin-top: 5px;
   }
 
   nav ul {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
     padding-top: 10px;
+    row-gap: 10px;
+  }
+
+  nav ul li {
+    flex: 0 1 calc(33.33% - 20px); /* 3 per row */
+    text-align: center;
   }
 }
