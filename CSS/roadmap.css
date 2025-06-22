@@ -1,0 +1,21 @@
+/* === Roadmap Section Specific === */
+.roadmap h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.roadmap-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  color: #ccc;
+}
+
+.roadmap-list li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-left: 2px solid #0ff;
+}

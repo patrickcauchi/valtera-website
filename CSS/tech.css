@@ -1,0 +1,29 @@
+/* === Tech Stack Section Specific === */
+.tech .intro {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #aaa;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.tech-badges span {
+  background-color: #222;
+  color: #0ff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  border: 1px solid #333;
+  transition: background-color 0.2s ease;
+}
+
+.tech-badges span:hover {
+  background-color: #0ff;
+  color: #000;
+  cursor: default;
+}

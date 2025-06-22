@@ -1,0 +1,47 @@
+/* === Founder Section Specific === */
+.founder h2 {
+  margin-bottom: 30px;
+}
+
+.founder-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.founder-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0ff;
+  box-shadow: 0 0 10px rgba(0,255,255,0.2);
+}
+
+.founder-content .bio {
+  max-width: 600px;
+  text-align: left;
+  color: #ccc;
+  font-size: 1.05rem;
+}
+
+.linkedin-link,
+.Github-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #0ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover,
+.Github-link:hover {
+  color: #fff;
+}
+
+.Github-link {
+  margin-left: 150px;
+}

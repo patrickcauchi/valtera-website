@@ -1,0 +1,6 @@
+/* === Responsive Adjustments === */
+@media (min-width: 768px) {
+  .product-grid {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,16 @@
+/* === Hero Section === */
+.hero {
+  padding: 60px 0;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #aaa;
+  text-align: center;
+}

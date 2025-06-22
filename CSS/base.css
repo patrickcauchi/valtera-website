@@ -1,0 +1,18 @@
+/* === Reset + base layout === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 20px;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}

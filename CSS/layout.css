@@ -1,0 +1,29 @@
+/* === Scroll Margin for Anchor Links === */
+#about,
+#vision,
+#products,
+#tech,
+#roadmap,
+#founder {
+  scroll-margin-top: 220px;
+}
+
+/* === Shared Section Layout === */
+.section {
+  padding: 60px 0;
+  border-top: 1px solid #222;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.section p {
+  font-size: 1.05rem;
+  color: #aaa;
+  max-width: 800px;
+  margin: 0 auto;
+}
