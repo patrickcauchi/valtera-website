@@ -50,8 +50,8 @@
 
 
     <section class="hero">
-      <h2>AI Agent Frameworks for Self, Capital & Work</h2>
-      <p>Valtera builds modular agent systems and quant automation tools for founders, traders, and builders — engineered for autonomy, clarity, and scale.</p>
+      <h2>Autonomous Systems for Founders, Traders & Builders</h2>
+      <p>We build intelligent apps for founders, traders, and operators — each one advancing the infrastructure behind sovereign, scalable business systems.</p>
     </section>
 
     <section id="about"  class="about section">
@@ -61,86 +61,120 @@
 
     <section id="vision"  class="vision section">
       <h2>Our Vision</h2>
-      <p>At Valtera, our vision is to engineer systems that restore sovereignty to individuals and innovators. We believe in a world where AI agents work as extensions of your intent — automating the repetitive, augmenting the strategic, and freeing space for original thought. Through the convergence of AI and blockchain, we aim to build intelligent financial and operational infrastructure that empowers free thinkers, builders, and modern leaders to shape a more autonomous and aligned future.</p>
+      <p>
+      At Valtera, our vision is to establish sovereignty by building systems that align with human intent — not distract from it. We believe in a future where AI agents act as trusted extensions of the self — amplifying strategy and creating space for deeper thinking.
+      </p>
+      <p>
+      By fusing AI, blockchain, event-driven logic, and decentralized identity, we’re building intelligent infrastructure that empowers free thinkers, builders, and operators to shape businesses that run with autonomy, clarity, and trust.
+      </p>
+
     </section>
 
-    <section id="products"  class="products section">
-      <h2>Products</h2>
-      <p>Valtera’s product suite spans intelligent journaling agents, modular quant infrastructure, and agent-powered SaaS tools — engineered to maximize autonomy, precision, and leverage for builders, traders, and operators.</p> 
+    <section id="products" class="products section">
+      <h2>Valtera Products</h2>
+      <p class="intro">
+        Each Valtera product is a proving ground — designed to mature the core infrastructure powering sovereign, intelligent, and autonomous business systems.
+      </p>
+
       <div class="product-grid">
-        <div class="product-item">
-          <h3>Day Zero Protocol — Build Yourself Daily</h3>
-          <p>A beautifully designed journaling and goal-tracking platform for founders, creatives, and free-thinkers.
-              Front-end focused, with an intuitive interface that encourages reflection, alignment, and growth.
-              Back-end potential includes AI coaching agents, habit tracking, reflection prompts, and future decentralized social systems.
-              Purpose: To cultivate clarity, discipline, and agency in your personal journey — the human agent layer of Valtera.
-          </p>
+        <div class="product-card" onclick="showProductDetails('dayzero')">
+          <h3>📘 Day Zero Protocol</h3>
+          <p>Journaling and reflection for personal clarity and discipline.</p>
         </div>
-        <div class="product-item">
-          <h3>Valtera Quant — Agent Infrastructure for Finance</h3>
-          <p>An agent-based, modular quant platform for automated portfolio management, DCA, rebalancing, yield strategies, and custom logic.
-              Back-end first, with REST APIs and SDKs designed for integration into wallets, DAOs, and fintech tools.
-              Optional front-end layers in development for embedded retail use 
-              empowering developers, funds, and individuals to leverage AI and agents at scale.
-              Purpose: To unlock programmable, autonomous finance — the capital agent layer of Valtera.
-          </p>
+        <div class="product-card" onclick="showProductDetails('valteraquant')">
+          <h3>📊 Valtera Quant</h3>
+          <p>Programmable finance platform for crypto agents and quant logic.</p>
         </div>
-        <div class="product-item">
-          <h3>TradeGrid — Agent-Powered Tools for the Trades</h3>
-          <p>A powerful SaaS platform built for solo operators and small service businesses.
-              UI-rich front-end for job tracking, scheduling, invoicing, and client portals.
-              Agent-driven back-end handles smart scheduling, customer reminders, material forecasts, cash flow projections, and more.
-              Future plug-and-play APIs will allow custom agent modules for other industries.
-              Purpose: To give tradespeople and service operators intelligent systems — the work agent layer of Valtera.
-          </p>
+        <div class="product-card" onclick="showProductDetails('supplychainx')">
+          <h3>🚚 SupplyChainX</h3>
+          <p>Event-triggered logistics and real-time orchestration.</p>
+        </div>
+        <div class="product-card" onclick="showProductDetails('tradegrid')">
+          <h3>📂 TradeGrid</h3>
+          <p>Internal workflow automation and smart milestone coordination.</p>
+        </div>
+        <div class="product-card" onclick="showProductDetails('identityprotocol')">
+          <h3>🛡️ Identity Protocol</h3>
+          <p>Sovereign ID, RBAC, and audit-grade access systems.</p>
         </div>
       </div>
+
+      <div id="product-details" class="product-details hidden"></div>
     </section>
 
     <section id="tech" class="tech section">
       <h2>Tech Stack</h2>
       <p class="intro">
-        Valtera is built on a modular and sovereign tech stack that prioritizes intelligence, transparency, and automation.
+        Valtera’s stack is modular, sovereign, and built for agent orchestration, trustless execution, and real-time autonomy — the foundation for our intelligent infrastructure SDK.
       </p>
 
-      <div class="tech-badges">
-        <span>Python</span>
-        <span>LangChain</span>
-        <span>Solidity</span>
-        <span>Ethereum</span>
-        <span>React</span>
-        <span>Tailwind</span>
-        <span>Node.js</span>
-        <span>FastAPI</span>
-        <span>PostgreSQL</span>
+      <div class="tech-category">
+        <h4>🧠 AI & Agent Logic</h4>
+        <div class="tech-badges">
+          <span>Python</span>
+          <span>LangChain</span>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h4>💾 Backend & Automation</h4>
+        <div class="tech-badges">
+          <span>Node.js</span>
+          <span>FastAPI</span>
+          <span>PostgreSQL</span>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h4>🧱 Smart Contracts</h4>
+        <div class="tech-badges">
+          <span>Solidity</span>
+          <span>Ethereum</span>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <h4>🖥 Frontend Frameworks</h4>
+        <div class="tech-badges">
+          <span>React</span>
+          <span>Tailwind</span>
+        </div>
       </div>
     </section>
+
 
     <section id="roadmap" class="roadmap section">
       <h2>Roadmap</h2>
       <ul class="roadmap-list">
+
         <li>
-          <span class="quarter">Q4 2025</span>
-          <p><strong>Launch Day Zero Protocol MVP</strong> — core journaling and goal-tracking experience focused on reflection, clarity, and daily alignment. This initial release excludes agent features and advanced integrations, offering a clean, accessible free-tier foundation.</p>
+          <span class="quarter">2025</span>
+          <p><strong>Launch Day Zero Protocol MVP</strong> — foundational journaling and self-alignment app. Focused on clean UI, habit flows, and light backend logging. Introduces early audit trails, minimal agent scaffolding, and sets the baseline for sovereign personal systems.</p>
         </li>
+
         <li>
-          <span class="quarter">Q1 2026</span>
-          <p><strong>Deploy Valtera Quant MVP</strong> — backend-first agent architecture for DCA and basic portfolio automation. This release includes REST API access, modular strategy logic, and developer-focused infrastructure — alongside basic frontend trading UI.</p>
+          <span class="quarter">2026</span>
+          <p><strong>Deploy Valtera Quant MVP</strong> — crypto quant automation platform for DCA, yield, and portfolio logic. Introduces real agent workflows, smart contract integration, and programmable finance. Backend-first with modular API and strategy SDK exposure.</p>
         </li>
+
         <li>
-          <span class="quarter">Q2 2026</span>
-          <p><strong>Release TradeGrid MVP</strong> — streamlined CRM/task system for trades and lean operators. The MVP includes job tracking, scheduling, and invoicing via a simple UI, with agent logic reserved for future versions.</p>
+          <span class="quarter">2027</span>
+          <p><strong>Launch SupplyChainX MVP</strong> — real-time logistics and coordination app using event-driven logic. Focused on data triggers, just-in-time workflows, and infrastructure for mission-critical automation. Integrates audit, agents, and role-driven event responses.</p>
         </li>
+
         <li>
-          <span class="quarter">Q3 2026</span>
-          <p><strong>Integrate AI Agents into Core Products</strong> — introduction of agent frameworks across Valtera’s suite, enabling dynamic backend logic, smart coaching, and intelligent scheduling across Day Zero, Valtera Quant, and TradeGrid.</p>
+          <span class="quarter">2028</span>
+          <p><strong>Deploy TradeGrid MVP</strong> — internal business OS for lean operators. Introduces smart job routing, milestone-based payments, and task orchestration. Modular backend for agent plugins, with embedded access logic and enterprise-ready audit trails.</p>
         </li>
+
         <li>
-          <span class="quarter">Q4 2026+</span>
-          <p><strong>Expand into Decentralized Agent Protocols</strong> — infrastructure tooling for sovereign coordination, open intelligence, and system-level governance across on-chain and off-chain environments.</p>
+          <span class="quarter">2029</span>
+          <p><strong>Release Identity Protocol</strong> — decentralized identity layer powering permissioned access, audit-grade compliance, and sovereign authentication across all Valtera apps. Anchors the trust layer for external adoption and governance tooling.</p>
         </li>
+
       </ul>
     </section>
+
 
 
     <section id="founder" class="founder section">
@@ -151,7 +185,8 @@
         alt="Patrick Cauchi Founder Photo">
 
         <div class="bio">
-          <p>Patrick Cauchi is the founder of Valtera — a strategist focused on building agent-based systems, crypto quant tools, and sovereign digital infrastructure. With roots in finance, blockchain, and AI architecture, he’s committed to reshaping how individuals interact with and lead through technology.</p>
+          <p>Patrick Cauchi is the founder of Valtera — a strategist focused on building agent-based systems, sovereign automation, and decentralized digital infrastructure. With roots in finance, blockchain, and AI architecture, he’s committed to reshaping how individuals interact with and lead through technology.
+          </p>
           <a 
             href="https://au.linkedin.com/in/patrick-cauchi-002567362" 
             target="_blank" 
@@ -180,5 +215,6 @@
     <p>&copy; 2025 Valtera. All rights reserved.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
